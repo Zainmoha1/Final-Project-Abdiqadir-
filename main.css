@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #99F;
+    font: 14px Verdana, sans-serif;
+}
+
+main {
+    background: #FF9;
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(header.jpg);
+    background-size: cover;
+    background-position: 0px -100px;
+    background-repeat: no-repeat;
+    height: 130px;
+}
+
+nav {
+    width: 960px;
+    background: #CFF;
+    height: 40px;
+    border-bottom: 1px solid #666;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    position: relative;
+    background: #CFF;
+}
+
+nav ul li a {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #000;
+    width: 159px;
+    display: block;
+    height: 35px;
+    padding: 5px 0 0 0;
+    line-height: 30px;
+    border-right: 1px solid #666;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+nav ul li:last-child a {
+    border-right: none;
+}
+
+nav li:hover {
+    background: #36F;
+}
+
+nav ul li a:hover {
+    color: #FFF;
+}
+
+nav ul ul {
+    position: absolute;
+    visibility: hidden;
+    top: 40px;
+}
+
+nav ul li:hover ul {
+    visibility: visible;
+    border-right: none;
+}
+
+nav ul li ul li a {
+    border-bottom: 1px solid #666;
+    border-right: none;
+    height: auto;
+}
+
+nav ul li ul li:hover a {
+    background: #609;
+}
+
+#content {
+    background: #FF9;
+    width: 600px;
+    float: left;
+}
+
+#content h2 {
+    font-size: 20px;
+    color: #F95B5D;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    text-shadow: 1px 1px #ccc;
+}
+
+#content p {
+    margin: 1px;
+    color: #000;
+}
+
+aside {
+    background: #0F9;
+    width: 360px;
+    float: left;
+}
+
+aside h2 {
+    font-size: 20px;
+    color: #F95B5D;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    text-shadow: 1px 1px #ccc;
+}
+
+aside p {
+    margin: 1px;
+    color: #000;
+}
+
+.image {
+    float: left;
+    border: 1px solid #FFF;
+    margin-right: 2px;
+}
+
+footer {
+    background: #0FF;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 120px;
+}
+
+footer , p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#developer {
+    position: absolute;
+    right: 20px;
+    bottom: 6px;
+    font-size: 16px;
+}
+/* #developer1 {
+    position: absolute;
+    bottom: 6px;
+    font-size: 16px;
+} */
